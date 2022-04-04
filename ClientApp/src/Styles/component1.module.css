@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+    .firstsec {
+        display: grid;
+        grid-template-columns: 1fr 11fr;
+        margin: 75px 0 0 0;
+    }
+    .buttons {
+        display: flex;
+        gap: 15px;
+    }
+    .compill1 {
+        margin-top: 100px;
+    }
+    .content {
+        grid-column: 2;
+    }
+    .firstsec section {
+        grid-column: 2;
+        display: flex;
+        gap: 50px;
+        flex-direction: column;
+
+    }
+    .firstsec section p {
+        color: rgb(116, 116, 116);
+        font-size: 18px;
+        font-weight: 600;
+        width: 90%;
+        
+    }
+    .firstsec section h1 {
+        font-size: 48px;
+        font-weight: 700;
+    }
+    
+
+
+
+
+@media only screen and (min-width : 768px) {
+    /* Styles here  for tablet*/
+}
+
+
+@media only screen and (min-width : 1200px) {
+    /* Styles here for laptop */
+}
+
+
+@media only screen and (min-width : 1600px) {
+    /* Styles here  for desktop*/
+}

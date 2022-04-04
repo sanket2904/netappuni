@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+a {
+    text-decoration: none;
+}
+body {
+    font-family: 'Spartan',sans-serif;
+    overflow-x: hidden;
+    
+}
+button {
+    width: 150px;
+    height: 50px;
+    border: none;
+    font-weight: 500;
+    border-radius: 25px;
+    box-sizing: border-box;
+    color: #fefefe;
+    background-color: #FC653C;
+}
+button:hover {
+    transition: transform 300ms;
+    transform: scale(1.05);
+}
+
+@media only screen and (min-width : 768px) {
+    /* Styles here  for tablet*/
+}
+
+
+@media only screen and (min-width : 1200px) {
+    /* Styles here for laptop */
+}
+
+
+@media only screen and (min-width : 1600px) {
+    /* Styles here  for desktop*/
+}
